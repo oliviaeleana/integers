@@ -9,37 +9,19 @@ namespace integers
             Console.WriteLine("Name two integers");
 
             string value1;
-
             string value2;
 
             value1 = Console.ReadLine();
-
             value2 = Console.ReadLine();
 
-            Console.WriteLine("Are your integers Equal?:");
-
-             = Console.ReadLine();
-
-            Console.WriteLine("Your two integers are not equal");
-
-            
-
-
-
-
-
-
-
-
-            
-
-
-
-
-
-    
-
-
+            if (value1.Equals(value2))
+            {
+                Console.WriteLine("your numbers are equal");
+            }
+            else
+            {
+                Console.WriteLine("Your two integers are not equal");
+            }
         }
     }
 }
